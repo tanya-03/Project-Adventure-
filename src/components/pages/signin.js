@@ -17,7 +17,7 @@ export default function Signin() {
       
       
       
-        if(user!="admin" && password!="admin")
+        if(user !== "admin" && password !== "admin")
         {
             alert("Invalid username or password")
             
