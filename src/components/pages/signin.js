@@ -1,4 +1,4 @@
-
+// import { type } from '@testing-library/user-event/dist/type';
 import React, { useState } from 'react'
 import './form.css'
 import {Link, useNavigate} from 'react-router-dom';
@@ -17,7 +17,7 @@ export default function Signin() {
       
       
       
-        if(user !== "admin" && password !== "admin")
+        if(user!="admin" && password!="admin")
         {
             alert("Invalid username or password")
             
@@ -67,7 +67,7 @@ export default function Signin() {
  
     <form className='signform' onSubmit={loginHandle}>
     <h1 className='form_head'>Sign in</h1>
-      <label>Enter Username</label>
+      <label>Enter UserID</label>
       <input type="text" placeholder='Username' onChange={userHandler}></input>
       
 

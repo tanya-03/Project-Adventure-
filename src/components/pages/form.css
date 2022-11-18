@@ -1,29 +1,26 @@
 .formConatiner{
     height:100vh;
     width:100%;
-   
+   background-color: dimgrey;
     color:white;
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     
    
 }
 .signform{
     display: flex;
     flex-direction: column;
-    border:2px dashed white;
     padding:50px 80px 50px 80px;
 }
 .signform *{
     margin:20px;
     
 }
-.form_head{
-    border-bottom: 1px dotted white;
-}
+
 
 .signform h1{
     margin-bottom:50px;
@@ -34,14 +31,13 @@ h1{
 }
 
 label{
-    border-bottom: 2px dashed white;;
     align-self: center;
 }
 button{
     width:150px;
     border-radius:20px;
     align-self: center;
-    background-color: gold;
+    background-color: orange;
 }
 
 button:hover{

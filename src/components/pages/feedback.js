@@ -100,7 +100,7 @@ export default function Feedbackform() {
                         <div id="Firstname" className="form-text">First Name</div>
                     </div>
                     <div className="last">
-                        <input type="text" className="form-control" id="exampleInputEmail1_2" aria-describedby="emailHelp"  placeholder='Last Name'
+                        <input type="text" className="form-control" id="exampleInputEmail1_2" aria-describedby="emailHelp"
                         onChange={(e) => setlname(e.target.value)}
                         required
                         
